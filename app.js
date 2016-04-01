@@ -72,6 +72,7 @@ $(document).ready(function() {
 		ability = ability.replace("$number", randNum);
 		ability = ability.replace("$smallNum", randSmall);
 		ability = ability.replace("$percent", randPercent);
+		ability = ability.replace("$percent", randPercent);
 		ability = ability.trim();
 		ability = ability + ".";
 
