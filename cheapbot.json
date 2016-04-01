@@ -1,0 +1,10 @@
+{
+    "origin": ["#language# #verb#s like #adjective# #weather#", "the #descriptive# of #adjective# #language# code is #emotionstate#", "If you want to write #language#, you must first master #adjective# #emotionstate#", "#adjective# #language#, #adjective# #language#, #emotionstate#", "#language# is #emotionstate#", "#adjective# #weather#? #language# - #emotionstate#" ],
+    "language": ["Java", "Go", "Python", "C#", "C++", "Erlang", "C", "COBOL", "FORTRAN", "Pascal", "Haskell", "ML", "Ruby"],
+    "descriptive": ["definition", "epitome", "root of all", "cause of", "author", "inventor", "antithesis", "existence"],
+    "verb": ["sing", "sleep", "shine", "dream", "resonate", "smell", "feel", "look", "taste", "breathe", "hum", "simmer"],
+    "adjective": ["clean", "dreamy", "Saturday's", "alien", "4am", "drunk", "peaceful", "musical", "well-formed", "stable"],
+    "weather": ["rain", "thunderstorms", "sunshine", "sleet", "hail", "snow", "April showers", "lightning"],
+    "emotionstate": ["happiness", "despair", "satisfaction", "frustration", "self-fulfillment", "silence", "indecipherable", "unknowable", "ecstasy", "inevitable", "honeybadger"]
+}
+
