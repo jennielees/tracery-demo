@@ -1,0 +1,57 @@
+<head>
+	<script src="jquery-1.12.2.min.js"></script>
+	<script src="tracery.min.js"></script>
+	<script src="app.js"></script>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>     
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+	<div id="text" class="container">
+	<div class="row">
+		<div class="col s10 offset-s1">
+		<div class="section">
+			<h4>Tracery Demo</h4>
+		</div>
+			<div class="divider"></div>
+		<div class="section">
+			<a id="summonerToggle" class="waves-effect waves-light btn deep-purple lighten-2">Summoner Name</a>
+		</div>
+
+		<div class="card-panel" id="summoner">
+			<h4>
+				<div id="sumName"></div>
+			</h4>
+
+			<div class="right-align">
+				<a id="generateSumButton" class="btn waves-light waves-effect orange lighten-1"><i class="material-icons">replay</i></a>
+			</div>
+		</div>		
+
+		<div class="section">
+			<a id="abilityToggle" class="waves-effect waves-light btn cyan">Champion Ability</a>
+		</div>
+
+		<div class="card-panel" id="ability">
+			<h5>
+				<div id="champAbility"></div>
+			</h5>
+
+			<div class="right-align">
+				<a id="generateAbilityButton"class="btn waves-light waves-effect orange lighten-1"><i class="material-icons">replay</i></a>
+			</div>
+		</div>
+
+		</div>
+	</div>
+	</div>
+</body>
